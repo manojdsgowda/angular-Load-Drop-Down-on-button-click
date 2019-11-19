@@ -1,5 +1,5 @@
 <button (click)="onClickMe()">Load</button>
-<p>{{clickMessage}}</p>
-<select [formControl]="dropdown">
+<br/><br/>
+City: <select [formControl]="dropdown">
   <option [value]="option" *ngFor="let  option of options">{{option}}</option>
 </select>

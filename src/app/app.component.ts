@@ -9,6 +9,6 @@ export class AppComponent {
   options = [];
 
 onClickMe(){
-this.options=['Delhi', 'Mumbai', 'Bangalore', 'Chennai'];
+this.options=['Delhi', 'Mumbai', 'Bangalore','Bellari', 'Chennai'];
 }
 }
